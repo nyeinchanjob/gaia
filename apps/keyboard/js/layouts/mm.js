@@ -22,17 +22,17 @@ Keyboards.mm = {
   },
   keys: [
     [
-      { value: 'q' }, { value: 'w' }, { value: 'e' }, { value: 'r' },
-      { value: 't' }, { value: '&#x1000' }, { value: 'u' }, { value: 'i' },
-      { value: 'o' }, { value: 'p' }
+      { value: '&#x1006;' }, { value: '&#x1010;' }, { value: '&#x1014;' }, { value: '&#x1019;' },
+      { value: '&#x1021;' }, { value: '&#x1000;' }, { value: '&#x1015;' }, { value: '&#x1004;' },
+      { value: '&#x101E;' }, { value: '&#x1005;' }
     ], [
-      { value: 'a' }, { value: 's' }, { value: 'd' }, { value: 'f' },
-      { value: 'g' }, { value: 'h' }, { value: 'j' }, { value: 'k' },
-      { value: 'l' }
+      { value: '&#x1031;' }, { value: '&#x103A;' }, { value: '&#x102D;' }, { value: '&#x1039;' },
+      { value: '&#x102B;' }, { value: '&#x1037;' }, { value: '&#x103B;' }, { value: '&#x102F;' },
+      { value: '&#x1030;' }
     ], [
       { value: '⇪', ratio: 1.5, keyCode: KeyEvent.DOM_VK_CAPS_LOCK },
-      { value: 'z' }, { value: 'x' }, { value: '&#x1001' }, { value: 'v' },
-      { value: 'b' }, { value: 'n' }, { value: 'm' },
+      { value: '&#x1016;' }, { value: '&#x1011;' }, { value: '&#x1001;' }, { value: '&#x101C;' },
+      { value: '&#x1018;' }, { value: '&#x100A;' }, { value: '&#x102C;' },
       { value: '⌫', ratio: 1.5, keyCode: KeyEvent.DOM_VK_BACK_SPACE }
     ], [
       { value: '&nbsp', ratio: 8, keyCode: KeyboardEvent.DOM_VK_SPACE },
@@ -47,8 +47,8 @@ Keyboards.mm = {
       '4': ['⁴', '4th'],
       '5': ['⁵', '5th'],
       '6': ['⁶', '6th'],
-      '7': ['⁷', '7th'],
-      '8': ['&#x1002', '&#x1002'],
+      '7': ['&#x101B;', '&#x101B;'],
+      '8': ['&#x1002;', '&#x1002;'],
       '9': ['⁹', '9th'],
       '0': ['⁰', 'º'],
       '$': ['¥', '€', '£', '¢', '₠'],
@@ -57,12 +57,12 @@ Keyboards.mm = {
     },
     keys: [
       [
-        { value: '&#x1041' }, { value: '&#x1042' }, { value: '&#x1043' }, { value: '&#x1044' },
-        { value: '&#x1045' }, { value: '&#x1046' }, { value: '&#x1047' }, { value: '&#x1048' },
-        { value: '&#x1041' }, { value: '&#x1040' }
+        { value: '&#x1041;' }, { value: '&#x1042;' }, { value: '&#x1043;' }, { value: '&#x1044;' },
+        { value: '&#x1045;' }, { value: '&#x1046;' }, { value: '&#x1047;' }, { value: '&#x1048;' },
+        { value: '&#x1041;' }, { value: '&#x1040;' }
       ], [
         { value: '@' }, { value: '#' },
-        { value: '$', className: 'alternate-indicator' }, { value: '&' },
+        { value: '$', className: 'alternate-indicator' }, { value: '&#x101B;' },
         { value: '*' }, { value: '-' }, { value: '_' }, { value: '/' },
         { value: '(' }, { value: ')' }
       ], [
@@ -74,7 +74,7 @@ Keyboards.mm = {
           supportsSwitching: {
             value: ','
           }
-        }, { value: ':' }, { value: ';' }, { value: '"' },
+        }, { value: '&#x1002;' }, { value: '&#x1038;' }, { value: '"' },
         { value: '\'' }, { value: '?' }, { value: '!' },
         { value: '⌫', ratio: 1.5, keyCode: KeyEvent.DOM_VK_BACK_SPACE }
       ], [
