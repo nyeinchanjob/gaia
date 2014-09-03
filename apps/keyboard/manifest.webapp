@@ -14,14 +14,14 @@
   },
   "inputs": {
     "number": {
-      "launch_path": "/index.html#numberLayout",
-      "name": "Number",
-      "description": "Numeric layout",
+      "launch_path": "/index.html#mmnumberLayout",
+      "name": "MMNumber",
+      "description": "မြန်မာဂဏန်း လက်ကွက်",
       "types": ["number"],
       "locales": {
-        "en-US": {
-          "name": "Number",
-          "description": "Numeric layout"
+        "mm": {
+          "name": "MMNumber",
+          "description": "မြန်မာ ဂဏန်း လက်ကွက်"
         }
       }
     }
