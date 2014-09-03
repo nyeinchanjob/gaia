@@ -1,12 +1,12 @@
 {
-  "name": "Built-in Keyboard",
-  "description": "Built-in Keyboard",
+  "name": "Myanmar Unicode Keyboard",
+  "description": "မြန်မာ Unicode Keyboard.",
   "type": "certified",
   "role": "input",
   "launch_path": "/settings.html",
   "developer": {
-    "name": "The Gaia Team",
-    "url": "https://github.com/mozilla-b2g/gaia"
+    "name": "Nyein Chan",
+    "url": "https://github.com/nyeinchanjob/gaia"
   },
   "permissions": {
     "settings": { "access": "readwrite" },
@@ -28,12 +28,12 @@
   },
   "locales": {
     "en-US": {
-      "name": "Built-in Keyboard",
-      "description": "Built-in Keyboard"
+      "name": "Myanmar Keyboard",
+      "description": "Myanmar Keyboard"
     },
-    "zh-TW": {
-      "name": "預設鍵盤",
-      "description": "預設鍵盤"
+    "mm-mm": {
+      "name": "မြန်မာဘာသာ",
+      "description": "မြန်မာဘာသာ"
     }
   },
   "default_locale": "en-US"
